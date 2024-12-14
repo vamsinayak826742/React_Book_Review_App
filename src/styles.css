@@ -1,0 +1,112 @@
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    
+}
+.author-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: Blue;
+    
+}
+
+.review-section {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #007BFF; /* Primary blue color */
+    color: white; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    padding: 10px 20px; /* Spacing inside the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
+  button:active {
+    background-color: #003d80; /* Even darker blue when clicked */
+    transform: scale(0.95); /* Slightly shrink the button */
+  }
+  .book-card button {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.book-card input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+.add-book-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-book-section input {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 14px;
+    width: calc(50% - 12px);
+}
+.review-section button {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.review-section textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.add-book-section button {
+    margin-top: 5px;
+}
+
+.review-section button {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.review-section textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
